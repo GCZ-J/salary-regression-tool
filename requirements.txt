@@ -1,6 +1,7 @@
-streamlit==1.31.0
-pandas==2.1.4
-numpy==1.26.3
-scikit-learn==1.4.0
-openpyxl==3.1.2
-plotly==5.18.0
+# 核心依赖（按功能分类，清晰易维护）
+streamlit>=1.30.0,<2.0.0  # Web界面核心
+pandas>=2.0.0,<3.0.0      # 数据处理
+numpy>=1.24.0,<2.0.0      # 数值计算
+scikit-learn>=1.2.0,<2.0.0 # 回归模型
+plotly>=5.15.0,<6.0.0     # 可视化图表
+openpyxl>=3.1.0,<4.0.0    # Excel读写（streamlit导出Excel依赖）
